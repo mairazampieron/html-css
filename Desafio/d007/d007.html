@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Imagem flexível</title>
+</head>
+<body>
+	<h1>Imagem Flexível</h1>
+	<p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar melhor a expêriencia &#128516;</p>
+	<picture>
+		<source media="(max-width:500px" srcset="imagem/alice-p.jpg" type="image/jpg")>
+		<source media="(max-width:1500px" srcset="imagem/alice-m.jpg" type="image/jpg")>
+		<img src="imagem/alice-g.jpg" alt="alice-g">
+		<p>Seu navegador não suporta o tamanho do arquivo, faça o download <a href="imagem/alice-m.jpg">aqui</a></p>	
+	</picture>
+</body>
+</html>
